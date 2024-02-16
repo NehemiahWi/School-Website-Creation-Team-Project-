@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- 
+	Group Members: LaKhari King, Brandon Singletary, Jaelaun Leach, Na'Shawn Pritchett, Nehemiah Williamson
+    File Name: contact.html
+    Date: 11/20/2023
+ -->
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Emblema+One|Lora&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<header>
+	<a href = "index.html">
+		<img src="images/ncatlogo.jpg" alt="NCAT Logo PNG Image" height="519" width="2419">
+	</a>
+</header>
+<body>
+	<div id="wrapper">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="ghoe.html">GHOE</a></li>
+			<li><a href="filmmakingclub.html">Filmmaking Club</a></li>
+			<li><a href="careerfair.html">Career Fair</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+    </nav>
+
+        <!-- Use the main area to add the main content to the webpage -->
+        <main>
+
+            <div id="contact">
+
+                <h2>You can reach us at:</h2>
+                <p class="tel-link round mobile"><a href="tel:3363347500">(336) 334-7500</a></p>
+                <p class="tab-desk">(336) 334-7500</p>
+                <p>Email: <a href="mailto:contact@wildrescues.net" class="link">studentsclubsevents@club.net</a></p>
+                <p>Address: <a href="https://maps.app.goo.gl/RKWmzDDpXez7cab5A" target="_blank" class="link">1601 E Market St, Greensboro, NC 27411</a></p>
+
+            </div>
+
+            <div id="form">
+
+                <h2>Want to join the events? Complete the form below and we will contact you soon! </h2>
+
+                <form class="form-grid"><!-- Start Form-->
+                    
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName">
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName">
+
+                        <label for="bName">Major:</label>
+                        <input type="text" name="bName" id="bName">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </fieldset>
+
+                    <fieldset>
+    <legend>Contact Form</legend>
+
+    <label for="careerfair"><input type="radio" name="info" id="careerfair" value="Career Fair">Career Fair</label>
+
+    <label for="filmmaking"><input type="radio" name="info" id="filmmaking" value="Filmmaking">Filmmaking</label>
+
+    <label for="ghoe"><input type="radio" name="info" id="ghoe" value="Greatest Homecoming on Earth (GHOE)">Greatest Homecoming on Earth (GHOE)</label>
+
+    <label for="careerfair"><input type="radio" name="info" id="careerfair" value="Career Fair">Career Fair</label>
+
+    <label for="questions">What questions do you have for us?</label>
+    <textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+</fieldset>
+
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                
+                </form>
+                
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:studentsclubsevents@club.net">studentsclubsevents@club.net</a></p>
+        </footer>
+        
+    </div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
